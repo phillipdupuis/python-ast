@@ -9,8 +9,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/main.ts'),
-      name: 'python-ast',
-      fileName: 'python-ast',
+      name: 'python-language',
+      fileName: 'python-language',
     },
   },
   test: {

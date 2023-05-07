@@ -1,29 +1,29 @@
 {
-  "name": "python-ast",
+  "name": "python-language",
   "version": "0.0.0",
   "description": "Typescript utilities for generating and processing trees of the Python abstract syntax grammar",
   "author": "Phillip Dupuis (https://github.com/phillipdupuis)",
   "license": "GPL-v3",
-  "homepage": "https://github.com/phillipdupuis/python-ast",
+  "homepage": "https://github.com/phillipdupuis/python-language",
   "repository": {
     "type": "git",
-    "url": "https://github.com/phillipdupuis/python-ast"
+    "url": "https://github.com/phillipdupuis/python-language"
   },
   "bugs": {
-    "url": "https://github.com/phillipdupuis/python-ast/issues"
+    "url": "https://github.com/phillipdupuis/python-language/issues"
   },
   "keywords": [
     "python",
     "webassembly"
   ],
   "type": "module",
-  "main": "./dist/python-ast.umd.cjs",
-  "module": "./dist/python-ast.js",
+  "main": "./dist/python-language.umd.cjs",
+  "module": "./dist/python-language.js",
   "types": "./dist/main.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/python-ast.js",
-      "require": "./dist/python-ast.umd.cjs"
+      "import": "./dist/python-language.js",
+      "require": "./dist/python-language.umd.cjs"
     }
   },
   "files": [
